@@ -98,7 +98,6 @@ body {
   -moz-osx-font-smoothing: grayscale;      
 }
 footer {
-    background: url(c.png) no-repeat center;
     height: 60px;
     position: fixed;
     left: 0;
