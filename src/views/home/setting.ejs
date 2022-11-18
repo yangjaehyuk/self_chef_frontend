@@ -15,12 +15,13 @@
         <form class="login-form">
           <input type="number" placeholder="키"/>
           <input type="number" placeholder="몸무게"/>
-          <div style="float: left; width: 40%;">
-            <input type="checkbox" name="gender" value="male"> 남
+          <div class="form-element">
+            <strong>성별</strong>
+            <div>
+              <input type="radio" name="gender" value="man">남
+              <input type="radio" name="gender" value="woman">여
             </div>
-            <div style="float: right; width: 40%;">
-            <input type="checkbox" name="gender" value="female"> 여
-            </div>
+          </div>
           <button type = "button" onclick="location.href = '/login'">완료</button>
         </form>
       </div>
