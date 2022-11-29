@@ -1,3 +1,1 @@
-#self-cheif front 개발 진행
-
-fighting
+#self-chef front end 개발 진행(양재혁)
