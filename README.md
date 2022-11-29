@@ -1,1 +1,1 @@
-#self-chef front end 개발 진행(양재혁)
+self-chef front end 개발 진행(양재혁)
