@@ -16,6 +16,10 @@ const output = {
     setting: (req, res) => {
         res.render("home/setting");
     },
+
+    community: (req, res) => {
+        res.render("home/community");
+    },
 };
 
 module.exports = {

@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.community-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+body {
+  background: #ffffff; /* fallback for old browsers */
+  background: rgb(255, 255, 255);
+  background: white;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.img > img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -60px;
+  left: 1030px;
+}
+
+.font_community{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color:black;
+  text-align: left;
+  top: 120px;
+}
+
+.font_title {
+  color: black;
+  font-size: 1.5rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.font_logout{
+  color: black;
+  font-size: 1.2rem;
+  font-family: Arial, serif;
+  font-weight: bold;
+  text-align: right;
+  position: relative;
+  top: -105px;
+  right: 50px;
+}
+
+.font_logout > a {
+    margin-right: 10px;
+}
+
+footer {
+  height: 60px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.image_center{
+  text-align: center;
+}
+
+.main {
+    margin: 20px;
+    text-align: center;
+}
+.searchBtn {
+    color: white;
+}
+
+.input_text {
+    border: 2.5px solid green;
+    width: 200px;
+    height: 40px;
+}
+.Button {
+    border: 0.2px solid black;
+    width: 50px;
+    height: 40px;
+    background: green;
+}
+
+.right{
+  position: absolute;
+  right: 550px;
+}
+
+.navyBtn{
+  border: 0.2px solid black;
+  width: 70px;
+  height: 20px;
+  background: white;
+  position: absolute;
+  top: 880px;
+  right: 569px;
+}
+
+ul {
+  margin: 30px;
+  padding: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+li {
+    list-style-type: 0;
+}
+
+.a{
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}

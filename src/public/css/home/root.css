@@ -33,6 +33,7 @@ body {
   top: -105px;
   right: 50px;
 }
+
 .font_logout > a {
     margin-right: 10px;
 }
@@ -110,6 +111,7 @@ ul, li {
   text-decoration: none;
   text-align: center;
 }
+
 .menu-link:hover {
   color: white;
 }
@@ -119,7 +121,7 @@ ul, li {
   height: 50px;
   position: relative;
   top: -60px;
-  left: 650px;
+  left: 1000px;
 }
 
 .container {
@@ -129,6 +131,7 @@ ul, li {
     margin-left: auto;
     margin-top:100px; 
 }
+
 .home1 {
     width: 1240px;
     background: #fff;
@@ -145,6 +148,7 @@ ul, li {
     padding-top: 35px;
     vertical-align: top;
 }
+
 .s_list_ul_arrow {
     display: inline-block;
     
