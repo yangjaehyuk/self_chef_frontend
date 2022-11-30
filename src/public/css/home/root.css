@@ -40,7 +40,7 @@ body {
 
 .search-box {
   position: absolute;
-  top: 20%;
+  top: 13%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #C5DEDA;
@@ -91,6 +91,8 @@ ul, li {
 }
 .menu {
   display: flex;
+  position: relative;
+  top: -30px;
 }
 .menu-item {
   background-color: green;

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/home/community.css">
     <title>COMMUNITY</title>
 </head>
-<body>
+<div>
   <div class="font_title">
       <p>Self Chef</p>
   </div>
@@ -20,32 +20,44 @@
       <a href="select">sign up</a>
       <a href="login">log out</a>
   </div>
+  <ul class="menu">
+        <li class="menu-item">
+            <a href="/" class="menu-link">Home</a>
+        </li>
+        <li class="menu-item">
+            <a href="community" class="menu-link">Community</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="menu-link">Meal planner</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="menu-link">My page</a>
+        </li>
+        <li class="menu-item">
+            <a href="setting" class="menu-link">Setting</a>
+        </li>
+    </ul>
+  </div>
   <div class="font_community">
     <p>게시판</p>
   </div>
-  <ul>
-    <li><a>번호</a></li>
-    <li><a>제목</a></li>
-    <li><a>글쓴이</a></li>
-    <li><a>날짜</a></li>
-    <li><a>조회수</a></li>
-</ul>
-<div class="image_center">
-    <img src="css/home/community.PNG">
-</div>
-<div class="image_center">
-    <img src="css/home/paging.PNG">
-</div>
-  <div class="right">
-    <div class="main mx-auto">
-      <div class="green_window">
-        <form action="#" method="GET">
-          <input id="query" class="input_text" name="query" type="search" placeholder="제목을 입력하세요">
-          <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
-        </form>
+
+  <div class="image_center">
+      <img src="css/home/community.PNG">
+  </div>
+  <div class="image_center">
+      <img src="css/home/paging.PNG">
+  </div>
+    <div class="right">
+      <div class="main mx-auto">
+        <div class="green_window">
+          <form action="#" method="GET">
+            <input id="query" class="input_text" name="query" type="search" placeholder="제목을 입력하세요">
+            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-  <input type="button" class="navyBtn" value="글 쓰기" onClick="location.href='#'">
-</body>
+    <input type="button" class="navyBtn" value="글 쓰기" onClick="location.href='#'">
+  </body>
 <html>

@@ -20,8 +20,9 @@ body {
   height: 50px;
   position: relative;
   top: -60px;
-  left: 1030px;
+  left: 1000px;
 }
+
 
 .font_community{
   font-size: 1.3rem;
@@ -36,7 +37,8 @@ body {
   font-size: 1.5rem;
   font-family: Arial, serif;
   font-weight: bold;
-  text-align: center;
+  position: relative;
+  left: 892px;
 }
 
 .font_logout{
@@ -101,20 +103,48 @@ footer {
   right: 569px;
 }
 
-ul {
-  margin: 30px;
-  padding: 0px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
+ul,li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 45px;
 }
 
-li {
-    list-style-type: 0;
+ul, li {
+  list-style:none;
 }
 
 .a{
   display: block;
   font-weight: bold;
   text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  top: -30px;
+}
+.menu-item {
+  background-color: green;
+  flex-grow: 1;
+  transition: 0.5s;
+}
+.menu-item:hover {
+  background-color: black;
+  flex-grow: 1.2;
+}
+.menu-link {
+  /* block이면 마우스 클릭영역이 더 커짐, a태그는 inline으로서 클릭영역이 콘텐츠에 한정됨*/
+  display: block; 
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-link:hover {
+  color: white;
 }
