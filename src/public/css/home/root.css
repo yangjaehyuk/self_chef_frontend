@@ -57,6 +57,7 @@ body {
   border-radius: 50%;
   background: #9CB4D4;
   display: flex;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
 }
@@ -86,23 +87,28 @@ ul,li {
   position: relative;
   top: 45px;
 }
+
 ul, li {
   list-style:none;
 }
+
 .menu {
   display: flex;
   position: relative;
   top: -30px;
 }
+
 .menu-item {
   background-color: green;
   flex-grow: 1;
   transition: 0.5s;
 }
+
 .menu-item:hover {
   background-color: black;
   flex-grow: 1.2;
 }
+
 .menu-link {
   /* block이면 마우스 클릭영역이 더 커짐, a태그는 inline으로서 클릭영역이 콘텐츠에 한정됨*/
   display: block; 
@@ -123,7 +129,7 @@ ul, li {
   height: 50px;
   position: relative;
   top: -60px;
-  left: 1000px;
+  left: 810px;
 }
 
 .container {
@@ -177,10 +183,22 @@ ul, li {
 
 .image_left{
   position: absolute;
+  top:1150px;
   left:200px;
 }
 
 .image_right{
   position: absolute;
+  top:1150px;
   right:200px;
+}
+
+.jb-th-1 {
+    width: 80px;
+  }
+.jb-th-2 {
+  width: 300px;
+}
+.jb-th-3 {
+  width: 150px;
 }
