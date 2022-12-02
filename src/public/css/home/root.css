@@ -102,6 +102,8 @@ ul, li {
   background-color: green;
   flex-grow: 1;
   transition: 0.5s;
+  
+  border: 1px solid rgb(199, 230, 193);
 }
 
 .menu-item:hover {
@@ -159,7 +161,6 @@ ul, li {
 
 .s_list_ul_arrow {
     display: inline-block;
-    
 }
 
 .exhibition_box {
