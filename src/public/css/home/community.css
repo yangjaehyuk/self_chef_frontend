@@ -128,6 +128,12 @@ footer {
   right: 240px;
 }
 
+.textb {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+
 .navyBtn{
   border: 0.2px solid black;
   width: 70px;
