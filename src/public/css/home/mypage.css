@@ -387,7 +387,7 @@ header {
 }
 .sales h2 {
     color: #8492af;
-    float: left;
+    text-align: center;
     font-size: 21px;
     font-weight: 600;
     margin: 0;
@@ -413,7 +413,7 @@ header {
     color: #0e1a35;
     display: inline-block;
     font-weight: 800;
-    padding: 9px 0;
+    padding: 7px 0;
     text-align: center;
     width: 100%;
 }

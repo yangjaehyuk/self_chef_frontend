@@ -26,13 +26,14 @@ const output = {
     res.render("home/mypage");
   },
 
-  fix_comment: (req, res) => {
-    res.render("home/fix_comment");
-  },
-
   write: (req, res) => {
     res.render("home/write");
   },
+
+  mypage_setting: (req, res) => {
+    res.render("home/mypage_setting");
+  }, 
+  
 };
 
 module.exports = {

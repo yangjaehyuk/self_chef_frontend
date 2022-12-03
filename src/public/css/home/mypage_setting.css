@@ -57,14 +57,37 @@ body {
 }
 
 
+/*--------------for Gender---------------*/
+    /*--------------label---------*/
+.public_or_not {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
     /*---------- for Input type--------*/
-.col-xs-4.gender{
+.col-xs-4.public_or_not{
     color: black;
     font-size: 13px;
     margin-top: 9px;
     padding-bottom: 16px;
 }
 
+.change {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+.col-xs-4.change{
+    color: black;
+    font-size: 13px;
+    margin-top: 9px;
+    padding-bottom: 16px;
+}
 .sbutton{
     color: rgb(111, 233, 153);
     font-size: 20px;
