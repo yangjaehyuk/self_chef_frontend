@@ -32,7 +32,15 @@ const output = {
 
   mypage_setting: (req, res) => {
     res.render("home/mypage_setting");
-  }, 
+  },
+
+  soycrab: (req, res) => {
+    res.render("home/soycrab");
+  },
+
+  kimchijjigae: (req, res) => {
+    res.render("home/kimchijjigae");
+  }
   
 };
 

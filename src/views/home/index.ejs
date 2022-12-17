@@ -43,7 +43,11 @@
             <a href="mypage" class="menu-link">My page</a>
         </li>
     </ul>
-    <div class="textb">레시피 분류</div>
+    <div class="page-title">
+        <div class="container">
+            <h3>레시피 분류</h3>
+        </div>
+        </div>
     <div class="tab-area">
         <input type="radio" name="tabs" id="tab1" checked>
         <label for="tab1">상황별</label>
@@ -74,38 +78,66 @@
             <a href="a11" name="샐러드"><img class="meal-img" src="css/home/image/종류별/샐러드.PNG " /></a>
         </div>
         </div>
-    <table style="position:absolute; top: 500px; left:261px;" , border="1" width="1000" height="100" align="center">
-    <tr align ="center">
-	    <p><td colspan = "5" span style="color:black">실시간 게시글 TOP 5</td></p>
-        </tr>
-	        <th class="jb-th-1">순위</th>
-	        <th class="jb-th-2">제목</th>
-	        <th class="jb-th-3">글쓴이</th>
-  </table>
-  <div class="image_center">
-        <img src="css/home/image/recent_list.png" style="position:absolute; width: 1122px; top:620px; right:200px;">
-    </div>
-    <table style="position: absolute; left: 261px; top: 1053px;" border="1" width="400" height="100">
-    <tr align ="center">
-	    <p><td colspan = "2" span style="color:black">실시간 검색어 랭킹 TOP5</td></p>
-        </tr>
-	        <th class="jb-th-1">순위</th>
-	        <th class="jb-th-2">검색어</th>
-  </table>
-    <div class="image_left">
-        <img src = "css/home/image/ranking_left.PNG">
-    </div>
-    <table style="position: absolute; right: 261px; top: 1053px;" border="1" width="400" height="100">
-    <tr align ="center">
-	    <p><td colspan = "2" span style="color:black">실시간 레시피 랭킹 TOP5</td></p>
-        </tr>
-	        <th class="jb-th-1">순위</th>
-	        <th class="jb-th-2">레시피</th>
-  </table>
-  </colgroup>
-    <div class="image_right">
-        <img src="css/home/image/ranking_right.PNG">
-    </div>
+    <section class="notice">
+        <div class="page-title">
+        <div class="container">
+            <h3>이달의 레시피</h3>
+        </div>
+        </div>
+        <!-- board list area -->
+        <div id="board-list">
+            <div class="container">
+                <table class="board-table">
+                    <thead>
+                    <tr>
+                        
+                        <th scope="col" class="th-like">추천수</th>
+                        <th scope="col" class="th-title">제목</th>
+                        <th scope="col" class="th-writer">작성자</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>24</td>
+                        <td><a href="kimchijjigae">
+                            <image src="css/home/image/김치찌개.jpg"></image>돼지고기 김치찌개를 잘 끓이는 방법</a></td>
+                        <td>정대윤</td>
+                    </tr>
+
+                    <tr>
+                        <td>15</td>
+                        <td><a href="#!">
+                            <image src="css/home/image/식빵피자.jpg"></image>식빵을 이용한 간단한 피자 만들기</a></td>
+                        <td>정만성</td>                        
+                    </tr>
+
+                    <tr>
+                        <td>13</td>
+                        <td><a href="#!">
+                            <image src="css/home/image/소불고기.jpg"></image>소불고기 황금 양념 레시피</a></td>
+                        <td>유원태</td>                        
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><a href="#!">
+                            <image src="css/home/image/간장게장.jpg"></image>간장게장 맛있게 하는 법</a></td>
+                        <td>정대윤</td>                        
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        
+                        <td><a href="#!">
+                            <image src="css/home/image/굴무침.jpg"></image>
+                        겨울철 별미 굴무침</a></td>
+                        <td>안준호</td>
+                    </tr>
+                                                            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    
 </body>
 
 <footer></footer>
